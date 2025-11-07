@@ -19,19 +19,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      # Solid, maintained Ruby setup with Bundler cache
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2"
           bundler-cache: true
-
-      # Some templates need a local vendor path; harmless if not needed
       - run: bundle install --path vendor/bundle || true
-
-      # Build the site (show full trace if anything goes wrong)
       - run: bundle exec jekyll build --trace -d _site
-
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
