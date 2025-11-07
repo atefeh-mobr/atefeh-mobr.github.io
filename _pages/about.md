@@ -14,8 +14,6 @@ My research focuses on recommender systems, multi agent reinforcement learning, 
 
 ✉️ atefeh@ucsd.edu
 
-
-
 ## Publications
 
 {% assign recent = site.publications | sort: 'date' | reverse | slice: 0, 2 %}
