@@ -13,4 +13,5 @@ Before that, I received my B.Sc. in Electrical Engineering from the
 My research focuses on recommender systems, reinforcement learning, and opinion dynamics.
 
 
+
 ✉️ atefeh@ucsd.edu
