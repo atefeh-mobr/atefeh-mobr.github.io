@@ -16,18 +16,12 @@ My research focuses on recommender systems, multi agent reinforcement learning, 
 
 ## Publications
 
-{% assign recent = site.publications | sort: 'date' | reverse | slice: 0, 2 %}
-<div class="pubs-compact">
-{% for p in recent %}
-  <div class="pub">
-    <div class="title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></div>
-    <div class="meta">
-      {{ p.authors }} · <em>{{ p.venue }}</em>{% if p.date %}, {{ p.date | date: "%Y" }}{% endif %}
-      {% if p.paperurl %} · <a href="{{ p.paperurl }}">PDF</a>{% endif %}
-    </div>
-  </div>
-{% endfor %}
-</div>
+1. [**The Feedback Loop Between Recommendation Systems and Reactive Users**](https://arxiv.org/pdf/2504.07105)  
+   **A. Mollabagher**, P. Naghizadeh. *American Control Conference (ACC’25)*, 2025.
+
+2. [**Reactive Users vs. Recommendation Systems: An Adaptive Policy to Manage Opinion Drifts**](https://arxiv.org/pdf/2508.13473)  
+   **A. Mollabagher**, P. Naghizadeh. *Under review*, 2025.
+   
 
 ## Ongoing projects
 
